@@ -1,0 +1,38 @@
+body{
+    margin-left: 160px;
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+div{
+    margin: 32px;
+}
+
+.taisetsu{
+    text-decoration: underline;
+}
+
+#kome{
+    font-size: 12px;
+}
+
+#syou{
+    margin-left: 48px;
+}
+
+#amari{
+    margin-left: 16px;
+}
+
+#monndai{
+    font-size: 64px;
+    margin: 16px;
+}

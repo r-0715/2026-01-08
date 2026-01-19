@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>あまりのある割り算</h1>
+    <div id="setsumei">
+        <p>
+            15個のリンゴを4人で分けるとき,
+            1人3個ずつ分けると1個あまります.これがあまりのある割り算です.
+        </p>
+        <p>
+            15÷4をするときもあまりのない割り算と同じように計算します.<br>
+            九九の4の段を使って計算すると思いますが,注意する点は4の段で15に最も近い数で<span class="taisetsu">15より小さい数</span>を見つけることです.<br>
+            一緒に考えてみましょう.
+        </p>
+        <ul>
+            <li>4 x 1 = 4</li>
+            <li>4 x 2 = 8</li>
+            <li>4 x 3 = 12</li>
+            <li>4 x 4 = 16</li>
+        </ul>
+        <p>
+            表から,4 x 4 = 16は15より大きくなってしまっているので今回は,4 x 3 = 12が15に最も近い数で<span class="taisetsu">15より小さい数</span>になります.<br>
+            なので答えは<span class="taisetsu">3</span>になります<br>
+            あまりは,<span class="taisetsu">15 - (3 x 4) = 3</span>です.<br>
+        </p>
+    </div>
+    <div id="matome">
+        <p>
+            あまりのある割り算についてのまとめです.
+        </p>
+        <ul>
+            <li>九九の「割る数の段」で<span class="taisetsu">「割られる数」より小さい数で「割られる数」に1番近い数をさがす</span></li>
+            <li>あまりの求め方は<span class="taisetsu">「割られる数」- (「割る数」x「答え」) です.</span></li>
+        </ul>
+    </div>
+    <div id="rennsyuumonndai">
+        <p>
+            練習問題をやりましょう<br>
+            <span id="kome">※下のボタンで問題を表示できます</span>
+        </p>
+        <button id="btn1">ここをクリック</button>
+        <div id="box">
+            <p id="monndai"></p>
+            <div id="usIn">
+                商:<input type="text" id="syou" value=""><br>
+                あまり:<input type="text" id="amari" value="">
+            </div>
+            <p id="kaisetsu"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
